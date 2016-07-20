@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C01E7E11D3DF91A0088A155 /* ParseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01E7E01D3DF91A0088A155 /* ParseService.swift */; };
+		4C01E7E21D3DF91A0088A155 /* ParseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01E7E01D3DF91A0088A155 /* ParseService.swift */; };
+		4C01E7E41D3E10C80088A155 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01E7E31D3E10C80088A155 /* Consts.swift */; };
+		4C01E7E51D3E10C80088A155 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01E7E31D3E10C80088A155 /* Consts.swift */; };
+		4C01E7E71D3E2A400088A155 /* WatchInternalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01E7E61D3E2A400088A155 /* WatchInternalService.swift */; };
+		4C01E7E81D3E2A400088A155 /* WatchInternalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C01E7E61D3E2A400088A155 /* WatchInternalService.swift */; };
+		4C01E7E91D3E2B3F0088A155 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF79A191D3CB5830067EE3C /* InterfaceController.swift */; };
+		4C01E7EA1D3E2BC40088A155 /* QueueTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDF40A1D3CE8C000BD3A64 /* QueueTableViewRow.swift */; };
+		4CDDF4091D3CBDE600BD3A64 /* QueueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDF4081D3CBDE600BD3A64 /* QueueTableViewCell.swift */; };
+		4CDDF40B1D3CE8C000BD3A64 /* QueueTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDF40A1D3CE8C000BD3A64 /* QueueTableViewRow.swift */; };
+		4CDDF40F1D3CF2F700BD3A64 /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDF40E1D3CF2F700BD3A64 /* MainInterfaceController.swift */; };
+		4CEDE72D1D3D0B0700410F1F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDE7311D3D0B0700410F1F /* Localizable.strings */; };
+		4CEDE72E1D3D0B0700410F1F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDE7311D3D0B0700410F1F /* Localizable.strings */; };
+		4CEDE72F1D3D0B0700410F1F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CEDE7311D3D0B0700410F1F /* Localizable.strings */; };
+		4CF799F51D3CB5820067EE3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF799F41D3CB5820067EE3C /* AppDelegate.swift */; };
+		4CF799F71D3CB5820067EE3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF799F61D3CB5820067EE3C /* ViewController.swift */; };
+		4CF799FA1D3CB5830067EE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF799F81D3CB5820067EE3C /* Main.storyboard */; };
+		4CF799FC1D3CB5830067EE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF799FB1D3CB5830067EE3C /* Assets.xcassets */; };
+		4CF799FF1D3CB5830067EE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF799FD1D3CB5830067EE3C /* LaunchScreen.storyboard */; };
+		4CF79A041D3CB5830067EE3C /* QueueGda WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4CF79A031D3CB5830067EE3C /* QueueGda WatchKit App.app */; };
+		4CF79A0A1D3CB5830067EE3C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF79A081D3CB5830067EE3C /* Interface.storyboard */; };
+		4CF79A0C1D3CB5830067EE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF79A0B1D3CB5830067EE3C /* Assets.xcassets */; };
+		4CF79A131D3CB5830067EE3C /* QueueGda WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4CF79A121D3CB5830067EE3C /* QueueGda WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4CF79A1A1D3CB5830067EE3C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF79A191D3CB5830067EE3C /* InterfaceController.swift */; };
+		4CF79A1C1D3CB5830067EE3C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF79A1B1D3CB5830067EE3C /* ExtensionDelegate.swift */; };
+		4CF79A1E1D3CB5830067EE3C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF79A1D1D3CB5830067EE3C /* NotificationController.swift */; };
+		4CF79A201D3CB5830067EE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF79A1F1D3CB5830067EE3C /* Assets.xcassets */; };
+		4CF79A361D3CB6090067EE3C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF79A351D3CB6090067EE3C /* DataService.swift */; };
+		4CF79A371D3CB6090067EE3C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF79A351D3CB6090067EE3C /* DataService.swift */; };
+		4CF79A391D3CB6430067EE3C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF79A381D3CB6430067EE3C /* Queue.swift */; };
+		4CF79A3A1D3CB6430067EE3C /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF79A381D3CB6430067EE3C /* Queue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CF79A051D3CB5830067EE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF799E91D3CB5820067EE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF79A021D3CB5830067EE3C;
+			remoteInfo = "QueueGda WatchKit App";
+		};
+		4CF79A141D3CB5830067EE3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF799E91D3CB5820067EE3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF79A111D3CB5830067EE3C;
+			remoteInfo = "QueueGda WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CF79A271D3CB5830067EE3C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4CF79A131D3CB5830067EE3C /* QueueGda WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF79A2B1D3CB5830067EE3C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4CF79A041D3CB5830067EE3C /* QueueGda WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C01E7E01D3DF91A0088A155 /* ParseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseService.swift; sourceTree = "<group>"; };
+		4C01E7E31D3E10C80088A155 /* Consts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		4C01E7E61D3E2A400088A155 /* WatchInternalService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchInternalService.swift; sourceTree = "<group>"; };
+		4CDDF4081D3CBDE600BD3A64 /* QueueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTableViewCell.swift; sourceTree = "<group>"; };
+		4CDDF40A1D3CE8C000BD3A64 /* QueueTableViewRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTableViewRow.swift; sourceTree = "<group>"; };
+		4CDDF40E1D3CF2F700BD3A64 /* MainInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
+		4CEDE7231D3D0ABB00410F1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		4CEDE7241D3D0ABB00410F1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4CEDE7251D3D0ABB00410F1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Interface.strings; sourceTree = "<group>"; };
+		4CEDE7261D3D0AC600410F1F /* pl-PL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pl-PL"; path = "pl-PL.lproj/Main.strings"; sourceTree = "<group>"; };
+		4CEDE7271D3D0AC700410F1F /* pl-PL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pl-PL"; path = "pl-PL.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4CEDE7281D3D0AC700410F1F /* pl-PL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pl-PL"; path = "pl-PL.lproj/Interface.strings"; sourceTree = "<group>"; };
+		4CEDE7301D3D0B0700410F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4CEDE7321D3D0B0B00410F1F /* pl-PL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pl-PL"; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4CEDE7331D3D0B0C00410F1F /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4CEDE7341D3D0B0D00410F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4CEDE7361D3D0C1F00410F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4CEDE7381D3D0C4A00410F1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Interface.strings; sourceTree = "<group>"; };
+		4CF799F11D3CB5820067EE3C /* Queue Gdansk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Queue Gdansk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF799F41D3CB5820067EE3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CF799F61D3CB5820067EE3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CF799F91D3CB5820067EE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CF799FB1D3CB5830067EE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF799FE1D3CB5830067EE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CF79A001D3CB5830067EE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF79A031D3CB5830067EE3C /* QueueGda WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QueueGda WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF79A091D3CB5830067EE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4CF79A0B1D3CB5830067EE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF79A0D1D3CB5830067EE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF79A121D3CB5830067EE3C /* QueueGda WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "QueueGda WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF79A181D3CB5830067EE3C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4CF79A191D3CB5830067EE3C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4CF79A1B1D3CB5830067EE3C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4CF79A1D1D3CB5830067EE3C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4CF79A1F1D3CB5830067EE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CF79A211D3CB5830067EE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF79A351D3CB6090067EE3C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		4CF79A381D3CB6430067EE3C /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF799EE1D3CB5820067EE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF79A0F1D3CB5830067EE3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CDDF4071D3CBDCF00BD3A64 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4CDDF4081D3CBDE600BD3A64 /* QueueTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		4CF799E81D3CB5820067EE3C = {
+			isa = PBXGroup;
+			children = (
+				4CF799F31D3CB5820067EE3C /* QueueGda */,
+				4CF79A071D3CB5830067EE3C /* QueueGda WatchKit App */,
+				4CF79A161D3CB5830067EE3C /* QueueGda WatchKit Extension */,
+				4CF799F21D3CB5820067EE3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF799F21D3CB5820067EE3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF799F11D3CB5820067EE3C /* Queue Gdansk.app */,
+				4CF79A031D3CB5830067EE3C /* QueueGda WatchKit App.app */,
+				4CF79A121D3CB5830067EE3C /* QueueGda WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF799F31D3CB5820067EE3C /* QueueGda */ = {
+			isa = PBXGroup;
+			children = (
+				4CF79A2F1D3CB5B20067EE3C /* Model */,
+				4CF79A321D3CB5C90067EE3C /* View */,
+				4CF79A311D3CB5C10067EE3C /* Controller */,
+				4CF79A301D3CB5BA0067EE3C /* Service */,
+				4CF79A331D3CB5DD0067EE3C /* Other */,
+			);
+			path = QueueGda;
+			sourceTree = "<group>";
+		};
+		4CF79A071D3CB5830067EE3C /* QueueGda WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4CF79A081D3CB5830067EE3C /* Interface.storyboard */,
+				4CF79A0B1D3CB5830067EE3C /* Assets.xcassets */,
+				4CF79A0D1D3CB5830067EE3C /* Info.plist */,
+			);
+			path = "QueueGda WatchKit App";
+			sourceTree = "<group>";
+		};
+		4CF79A161D3CB5830067EE3C /* QueueGda WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4CDDF40E1D3CF2F700BD3A64 /* MainInterfaceController.swift */,
+				4CF79A191D3CB5830067EE3C /* InterfaceController.swift */,
+				4C01E7E61D3E2A400088A155 /* WatchInternalService.swift */,
+				4CDDF40A1D3CE8C000BD3A64 /* QueueTableViewRow.swift */,
+				4CF79A1B1D3CB5830067EE3C /* ExtensionDelegate.swift */,
+				4CF79A1D1D3CB5830067EE3C /* NotificationController.swift */,
+				4CF79A1F1D3CB5830067EE3C /* Assets.xcassets */,
+				4CF79A211D3CB5830067EE3C /* Info.plist */,
+				4CF79A171D3CB5830067EE3C /* Supporting Files */,
+			);
+			path = "QueueGda WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4CF79A171D3CB5830067EE3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF79A181D3CB5830067EE3C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CF79A2F1D3CB5B20067EE3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CF79A381D3CB6430067EE3C /* Queue.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4CF79A301D3CB5BA0067EE3C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4CF79A351D3CB6090067EE3C /* DataService.swift */,
+				4C01E7E01D3DF91A0088A155 /* ParseService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		4CF79A311D3CB5C10067EE3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CDDF4071D3CBDCF00BD3A64 /* Cell */,
+				4CF799F61D3CB5820067EE3C /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4CF79A321D3CB5C90067EE3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CF799F81D3CB5820067EE3C /* Main.storyboard */,
+				4CF799FD1D3CB5830067EE3C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4CF79A331D3CB5DD0067EE3C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4C01E7E31D3E10C80088A155 /* Consts.swift */,
+				4CF799F41D3CB5820067EE3C /* AppDelegate.swift */,
+				4CF799FB1D3CB5830067EE3C /* Assets.xcassets */,
+				4CF79A001D3CB5830067EE3C /* Info.plist */,
+				4CEDE7311D3D0B0700410F1F /* Localizable.strings */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF799F01D3CB5820067EE3C /* QueueGda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF79A2C1D3CB5830067EE3C /* Build configuration list for PBXNativeTarget "QueueGda" */;
+			buildPhases = (
+				4CF799ED1D3CB5820067EE3C /* Sources */,
+				4CF799EE1D3CB5820067EE3C /* Frameworks */,
+				4CF799EF1D3CB5820067EE3C /* Resources */,
+				4CF79A2B1D3CB5830067EE3C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF79A061D3CB5830067EE3C /* PBXTargetDependency */,
+			);
+			name = QueueGda;
+			productName = QueueGda;
+			productReference = 4CF799F11D3CB5820067EE3C /* Queue Gdansk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CF79A021D3CB5830067EE3C /* QueueGda WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF79A281D3CB5830067EE3C /* Build configuration list for PBXNativeTarget "QueueGda WatchKit App" */;
+			buildPhases = (
+				4CF79A011D3CB5830067EE3C /* Resources */,
+				4CF79A271D3CB5830067EE3C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF79A151D3CB5830067EE3C /* PBXTargetDependency */,
+			);
+			name = "QueueGda WatchKit App";
+			productName = "QueueGda WatchKit App";
+			productReference = 4CF79A031D3CB5830067EE3C /* QueueGda WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4CF79A111D3CB5830067EE3C /* QueueGda WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF79A241D3CB5830067EE3C /* Build configuration list for PBXNativeTarget "QueueGda WatchKit Extension" */;
+			buildPhases = (
+				4CF79A0E1D3CB5830067EE3C /* Sources */,
+				4CF79A0F1D3CB5830067EE3C /* Frameworks */,
+				4CF79A101D3CB5830067EE3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QueueGda WatchKit Extension";
+			productName = "QueueGda WatchKit Extension";
+			productReference = 4CF79A121D3CB5830067EE3C /* QueueGda WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF799E91D3CB5820067EE3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BTSkyrise;
+				TargetAttributes = {
+					4CF799F01D3CB5820067EE3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 542W6NMGD4;
+					};
+					4CF79A021D3CB5830067EE3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 542W6NMGD4;
+					};
+					4CF79A111D3CB5830067EE3C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 542W6NMGD4;
+					};
+				};
+			};
+			buildConfigurationList = 4CF799EC1D3CB5820067EE3C /* Build configuration list for PBXProject "Queue Gdansk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pl-PL",
+				pl,
+			);
+			mainGroup = 4CF799E81D3CB5820067EE3C;
+			productRefGroup = 4CF799F21D3CB5820067EE3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF799F01D3CB5820067EE3C /* QueueGda */,
+				4CF79A021D3CB5830067EE3C /* QueueGda WatchKit App */,
+				4CF79A111D3CB5830067EE3C /* QueueGda WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF799EF1D3CB5820067EE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEDE72D1D3D0B0700410F1F /* Localizable.strings in Resources */,
+				4CF799FF1D3CB5830067EE3C /* LaunchScreen.storyboard in Resources */,
+				4CF799FC1D3CB5830067EE3C /* Assets.xcassets in Resources */,
+				4CF799FA1D3CB5830067EE3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF79A011D3CB5830067EE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEDE72E1D3D0B0700410F1F /* Localizable.strings in Resources */,
+				4CF79A0C1D3CB5830067EE3C /* Assets.xcassets in Resources */,
+				4CF79A0A1D3CB5830067EE3C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF79A101D3CB5830067EE3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEDE72F1D3D0B0700410F1F /* Localizable.strings in Resources */,
+				4CF79A201D3CB5830067EE3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF799ED1D3CB5820067EE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDDF4091D3CBDE600BD3A64 /* QueueTableViewCell.swift in Sources */,
+				4C01E7E11D3DF91A0088A155 /* ParseService.swift in Sources */,
+				4C01E7E71D3E2A400088A155 /* WatchInternalService.swift in Sources */,
+				4CF79A361D3CB6090067EE3C /* DataService.swift in Sources */,
+				4CF799F71D3CB5820067EE3C /* ViewController.swift in Sources */,
+				4C01E7E41D3E10C80088A155 /* Consts.swift in Sources */,
+				4C01E7EA1D3E2BC40088A155 /* QueueTableViewRow.swift in Sources */,
+				4C01E7E91D3E2B3F0088A155 /* InterfaceController.swift in Sources */,
+				4CF799F51D3CB5820067EE3C /* AppDelegate.swift in Sources */,
+				4CF79A391D3CB6430067EE3C /* Queue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CF79A0E1D3CB5830067EE3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF79A3A1D3CB6430067EE3C /* Queue.swift in Sources */,
+				4C01E7E21D3DF91A0088A155 /* ParseService.swift in Sources */,
+				4CF79A1E1D3CB5830067EE3C /* NotificationController.swift in Sources */,
+				4CDDF40B1D3CE8C000BD3A64 /* QueueTableViewRow.swift in Sources */,
+				4CF79A1C1D3CB5830067EE3C /* ExtensionDelegate.swift in Sources */,
+				4CF79A1A1D3CB5830067EE3C /* InterfaceController.swift in Sources */,
+				4CDDF40F1D3CF2F700BD3A64 /* MainInterfaceController.swift in Sources */,
+				4C01E7E51D3E10C80088A155 /* Consts.swift in Sources */,
+				4C01E7E81D3E2A400088A155 /* WatchInternalService.swift in Sources */,
+				4CF79A371D3CB6090067EE3C /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CF79A061D3CB5830067EE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF79A021D3CB5830067EE3C /* QueueGda WatchKit App */;
+			targetProxy = 4CF79A051D3CB5830067EE3C /* PBXContainerItemProxy */;
+		};
+		4CF79A151D3CB5830067EE3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF79A111D3CB5830067EE3C /* QueueGda WatchKit Extension */;
+			targetProxy = 4CF79A141D3CB5830067EE3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CEDE7311D3D0B0700410F1F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CEDE7301D3D0B0700410F1F /* en */,
+				4CEDE7321D3D0B0B00410F1F /* pl-PL */,
+				4CEDE7331D3D0B0C00410F1F /* pl */,
+				4CEDE7341D3D0B0D00410F1F /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4CF799F81D3CB5820067EE3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF799F91D3CB5820067EE3C /* Base */,
+				4CEDE7231D3D0ABB00410F1F /* pl */,
+				4CEDE7261D3D0AC600410F1F /* pl-PL */,
+				4CEDE7361D3D0C1F00410F1F /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF799FD1D3CB5830067EE3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF799FE1D3CB5830067EE3C /* Base */,
+				4CEDE7241D3D0ABB00410F1F /* pl */,
+				4CEDE7271D3D0AC700410F1F /* pl-PL */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4CF79A081D3CB5830067EE3C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF79A091D3CB5830067EE3C /* Base */,
+				4CEDE7251D3D0ABB00410F1F /* pl */,
+				4CEDE7281D3D0AC700410F1F /* pl-PL */,
+				4CEDE7381D3D0C4A00410F1F /* en */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF79A221D3CB5830067EE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CF79A231D3CB5830067EE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CF79A251D3CB5830067EE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "QueueGda WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTSkyrise.QueueGda.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4CF79A261D3CB5830067EE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "QueueGda WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTSkyrise.QueueGda.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		4CF79A291D3CB5830067EE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = QueueGda_WatchKit_Extension;
+				INFOPLIST_FILE = "QueueGda WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTSkyrise.QueueGda.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QueueGda/QueueGda WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		4CF79A2A1D3CB5830067EE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = QueueGda_WatchKit_Extension;
+				INFOPLIST_FILE = "QueueGda WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTSkyrise.QueueGda.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QueueGda/QueueGda WatchKit App-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		4CF79A2D1D3CB5830067EE3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QueueGda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTSkyrise.QueueGda;
+				PRODUCT_NAME = "Queue Gdansk";
+			};
+			name = Debug;
+		};
+		4CF79A2E1D3CB5830067EE3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = QueueGda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BTSkyrise.QueueGda;
+				PRODUCT_NAME = "Queue Gdansk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF799EC1D3CB5820067EE3C /* Build configuration list for PBXProject "Queue Gdansk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF79A221D3CB5830067EE3C /* Debug */,
+				4CF79A231D3CB5830067EE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF79A241D3CB5830067EE3C /* Build configuration list for PBXNativeTarget "QueueGda WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF79A251D3CB5830067EE3C /* Debug */,
+				4CF79A261D3CB5830067EE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF79A281D3CB5830067EE3C /* Build configuration list for PBXNativeTarget "QueueGda WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF79A291D3CB5830067EE3C /* Debug */,
+				4CF79A2A1D3CB5830067EE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF79A2C1D3CB5830067EE3C /* Build configuration list for PBXNativeTarget "QueueGda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF79A2D1D3CB5830067EE3C /* Debug */,
+				4CF79A2E1D3CB5830067EE3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF799E91D3CB5820067EE3C /* Project object */;
+}

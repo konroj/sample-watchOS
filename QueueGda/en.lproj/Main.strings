@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "A15"; ObjectID = "4AK-k7-rP7"; */
+"4AK-k7-rP7.text" = "A15";
+
+/* Class = "UILabel"; text = "ul. Partyzantów 74"; ObjectID = "Gnp-s8-0Fz"; */
+"Gnp-s8-0Fz.text" = "ul. Partyzantów 74";
+
+/* Class = "UILabel"; text = "Zespół Obsługi Mieszkańców nr 1"; ObjectID = "Gvd-fa-kNx"; */
+"Gvd-fa-kNx.text" = "Zespół Obsługi Mieszkańców nr 1";
+
+/* Class = "UILabel"; text = "Osób w kolejce: 30"; ObjectID = "Heb-zW-8Bt"; */
+"Heb-zW-8Bt.text" = "Osób w kolejce: 30";
+
+/* Class = "UILabel"; text = "A-REJESTRACJA POJAZDÓW"; ObjectID = "PPo-7K-4h7"; */
+"PPo-7K-4h7.text" = "A-REJESTRACJA POJAZDÓW";
+
+/* Class = "UITabBarItem"; title = "ZOM 2"; ObjectID = "VGD-lT-tNm"; */
+"VGD-lT-tNm.title" = "RST 2";
+
+/* Class = "UITabBarItem"; title = "ZOM 1"; ObjectID = "hAU-tJ-ywp"; */
+"hAU-tJ-ywp.title" = "RST 1";
+
+/* Class = "UITabBarItem"; title = "ZOM 4"; ObjectID = "hdw-k3-cvm"; */
+"hdw-k3-cvm.title" = "RST 4";
+
+/* Class = "UILabel"; text = "Obsługiwany numerek"; ObjectID = "kaZ-Nz-ENI"; */
+"kaZ-Nz-ENI.text" = "Obsługiwany numerek";
+
+/* Class = "UILabel"; text = "Liczba stanowisk: 3"; ObjectID = "lel-fO-xxH"; */
+"lel-fO-xxH.text" = "Liczba stanowisk: 3";
+
+/* Class = "UITabBarItem"; title = "ZOM 3"; ObjectID = "nu0-0T-YNJ"; */
+"nu0-0T-YNJ.title" = "RST 3";
+
+/* Class = "UILabel"; text = "Średni czas obsługi: 99 min"; ObjectID = "xyp-Kv-SQm"; */
+"xyp-Kv-SQm.text" = "Średni czas obsługi: 99 min";

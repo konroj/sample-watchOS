@@ -1,0 +1,27 @@
+
+/* Class = "WKInterfaceController"; title = "Queue"; ObjectID = "AgC-eL-Hgc"; */
+"AgC-eL-Hgc.title" = "Queue";
+
+/* Class = "WKInterfaceLabel"; text = "Osób w kolejce: 6"; ObjectID = "BOe-QA-ACV"; */
+"BOe-QA-ACV.text" = "Osób w kolejce: 6";
+
+/* Class = "WKInterfaceLabel"; text = "Obsługiwany numerek"; ObjectID = "E7X-NR-cLi"; */
+"E7X-NR-cLi.text" = "Obsługiwany numerek";
+
+/* Class = "WKInterfaceLabel"; text = "Liczba stanowisk: 6"; ObjectID = "H5V-HE-RRv"; */
+"H5V-HE-RRv.text" = "Liczba stanowisk: 6";
+
+/* Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "IdU-wH-bcW"; */
+"IdU-wH-bcW.text" = "Alert Label";
+
+/* Class = "WKInterfaceLabel"; text = "A20"; ObjectID = "WR8-OO-hQm"; */
+"WR8-OO-hQm.text" = "A20";
+
+/* Class = "WKInterfaceLabel"; text = "A-Rejestracja pojazdów"; ObjectID = "cq0-bU-0rC"; */
+"cq0-bU-0rC.text" = "A-Rejestracja pojazdów";
+
+/* Class = "WKInterfaceLabel"; text = "Średni czas obsługi: 6"; ObjectID = "fEb-Db-RZw"; */
+"fEb-Db-RZw.text" = "Średni czas obsługi: 6";
+
+/* Class = "WKInterfaceController"; title = "Queue"; ObjectID = "yTY-kX-iZk"; */
+"yTY-kX-iZk.title" = "Queue";

@@ -1,0 +1,14 @@
+/* 
+  Localized.strings
+  Queue Gdansk
+
+  Created by KonradRoj on 18.07.2016.
+  Copyright © 2016 BTSkyrise. All rights reserved.
+*/
+
+"Residents Services Team No." = "Zespół Obsługi Mieszkańców Nr ";
+"Current number" = "Obsługiwany numerek";
+"People in line: " = "Osób w kolejce: ";
+"Number of posts: " = "Liczba stanowisk: ";
+"Avg. service time: " = "Średni czas obsługi: ";
+"RST" = "ZOM";
